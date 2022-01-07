@@ -7,6 +7,10 @@
     flex-direction: column;
     justify-content: space-between;
     }
+.nav{
+    max-width: 1230px;
+    margin: 0 auto;
+}
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -36,10 +40,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    padding: 0 20px;
+    padding: 0;
     line-height: 50px;
     font: 16px Arial, sans-serif;
-    
+    max-width: 1230px;
+    margin: 0 auto;    
 }
 .foot-item{
     list-style: none;
